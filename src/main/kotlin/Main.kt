@@ -1,3 +1,10 @@
+
+var name = "Misha"
+var greeating: String? = null
 fun main() {
-    println("Hello Kotlin")
+    greeating = "Hi there"
+    if (greeating != null) {
+        println(greeating)
+    }
+    println(name)
 }
