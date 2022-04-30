@@ -1,5 +1,5 @@
 fun sayHello(item: String) {
-    val msg = "Hello " + item
+    val msg = "Hello $item"
     println(msg)
 }
 fun main() {
