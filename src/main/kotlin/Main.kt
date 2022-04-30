@@ -5,6 +5,8 @@ fun main() {
     greeating = "Hi there"
     if (greeating != null) {
         println(greeating)
+    } else {
+        println("Hello")
     }
     println(name)
 }
