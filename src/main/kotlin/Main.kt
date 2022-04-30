@@ -1,11 +1,7 @@
-fun getGreeting(): String {
-    return "Hello there"
-}
-
-fun sayHello(): Unit {
-    println(getGreeting())
+fun sayHello(item: String) {
+    val msg = "Hello " + item
+    println(msg)
 }
 fun main() {
-    println(getGreeting())
-    sayHello()
+    sayHello("Misha")
 }
