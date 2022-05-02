@@ -4,4 +4,7 @@ fun sayHello(item: String) {
 }
 fun main() {
     sayHello("Misha")
+    saySay("Hola","OMG")
 }
+
+fun saySay(greeting: String, item: String) = println("$greeting $item")
